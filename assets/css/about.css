@@ -1,0 +1,421 @@
+
+.whitefield{
+  color: var(--first-color-lighten);
+}
+
+.footer__copy, .footer__privacy a{
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color-lighten);
+}
+
+#logo_title{
+  color: rgb(45, 45, 131);
+}
+
+#anchor1{
+  color: var(--first-color-lighten);
+}
+
+#anchor2{
+  color: var(--first-color-lighten);
+}
+
+.footer__content{
+  grid-template-columns: auto auto;
+  /* gap: 2.5rem 4rem; */
+}
+
+footer {
+  background-color: var(--first-color-light);
+}
+
+/*=============== ABOUT SECTION ===============*/
+.about-hero {
+    /* background: linear-gradient(170deg, hsl(0, 0%, 22%) 0%, hsl(0, 0%, 6%) 30%); */
+    background-image: url("https://media.istockphoto.com/id/2161773498/photo/modern-glass-offices-at-dusk.webp?a=1&b=1&s=612x612&w=0&k=20&c=Mrt_JM3unBswi7ssyFRZutq1Tgk9IumF0TnOXjvBR14=");
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+.about-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-hero .hero-title {
+    color: #ffff;
+    font-size: var(--biggest-font-size);
+    margin-bottom: 0.5rem;
+}
+
+.about-hero .hero-description {
+    color: var(--text-color-light);
+    font-size: var(--normal-font-size);
+    max-width: 600px;
+}
+
+.about-content {
+    padding: 2rem 0 4rem;
+}
+
+.about-section {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-title h2 {
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+}
+
+.section-title .underline {
+    width: 80px;
+    height: 4px;
+    background: var(--second-color);
+    border-radius: 2px;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.text-content {
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    line-height: 1.8;
+}
+
+.text-content p {
+    margin-bottom: 1rem;
+}
+
+.text-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text-content ul li {
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.text-content ul li:before {
+    content: '•';
+    color: var(--second-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-content img:hover {
+    transform: scale(1.02);
+}
+
+/*=============== TEAM SECTION ===============*/
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.team-member {
+    background-color: var(--container-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.team-member-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.team-member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover .team-member-image img {
+    transform: scale(1.05);
+}
+
+.team-member-content {
+    padding: 1.5rem;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-member h3 {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.25rem;
+}
+
+.team-member p {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    margin-top: 0.5rem;
+}
+
+/*=============== HOW WE WORK SECTION ===============*/
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.process-step {
+    background-color: var(--container-color);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.step-number {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--first-color);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-bold);
+    font-size: var(--small-font-size);
+}
+
+.step-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--first-color-lighten);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+    transition: transform 0.3s ease;
+}
+
+.process-step:hover .step-icon {
+    transform: scale(1.1);
+}
+
+.step-icon i {
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+.step-title {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.75rem;
+}
+
+.step-description {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+/*=============== VALUES SECTION ===============*/
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.value-card {
+    background-color: var(--container-color);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.value-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--first-color-lighten);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover .value-icon {
+    transform: scale(1.1);
+}
+
+.value-icon i {
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+.value-title {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.75rem;
+}
+
+.value-description {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+/*=============== RESPONSIVE DESIGN ===============*/
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .image-content {
+        order: -1;
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-title h2 {
+        font-size: var(--h3-font-size);
+    }
+}
+
+/* Dark theme styles */
+.dark-theme .about-hero {
+    background: linear-gradient(170deg, hsl(228, 66%, 45%) 0%, hsl(228, 66%, 25%) 30%);
+}
+
+.dark-theme .about-hero .hero-title,
+.dark-theme .about-hero .hero-description {
+    color: #ffff;
+}
+
+.dark-theme .content-wrapper .text-content,
+.dark-theme .content-wrapper .text-content p,
+.dark-theme .content-wrapper .text-content ul li {
+    color: var(--text-color-light);
+}
+
+.dark-theme .content-wrapper .text-content ul li:before {
+    color: var(--first-color);
+}
+
+.dark-theme .image-content img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .team-member,
+.dark-theme .value-card {
+    background-color: var(--body-color);
+}
+
+.dark-theme .team-member h3,
+.dark-theme .value-title {
+    color: var(--title-color);
+}
+
+.dark-theme .team-member p,
+.dark-theme .value-description {
+    color: var(--text-color-light);
+}
+
+.dark-theme .value-icon {
+    background-color: var(--first-color-lighten);
+}
+
+.dark-theme .value-icon i {
+    color: var(--first-color);
+}
