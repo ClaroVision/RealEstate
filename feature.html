@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | Lacasa Real Estate</title>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/features.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav__logo">
+                Lacasa <i class='bx bxs-home-alt-2'></i>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./about.html" class="nav__link">
+                            <i class='bx bx-building-house'></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">
+                            <i class='bx bx-award'></i>
+                            <span>Features</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./news.html" class="nav__link">
+                            <i class='bx bx-newspaper'></i>
+                            <span>News & Blogs</span>
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-phone'></i>
+                            <span>Contact</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+            <a href="#" class="button nav__button">
+                Subscribe
+            </a>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HERO SECTION ====================-->
+        <section class="hero features-hero">
+            <div class="container">
+                <h1 class="hero-title">Our Features</h1>
+                <p class="hero-description">Discover the powerful tools and services we offer</p>
+            </div>
+        </section>
+
+        <!--==================== FEATURES SECTION ====================-->
+        <section class="features section" id="value">
+            <div class="container">
+                <span class="section__subtitle">What We Offer</span>
+                <h2 class="section__title">
+                    Powerful Features<span></span>
+                </h2>
+
+                <div class="features__showcase">
+                    <div class="features__showcase-content">
+                        <div class="features__showcase-text">
+                            <h3 class="features__showcase-title">Advanced Property Search</h3>
+                            <p class="features__showcase-description">
+                                Our intelligent search system helps you find your dream home with precision filters and personalized recommendations.
+                            </p>
+                            <div class="features__showcase-stats">
+                                <div class="feature-stat">
+                                    <span class="feature-stat-number">95%</span>
+                                    <span class="feature-stat-label">User Satisfaction</span>
+                                </div>
+                                <div class="feature-stat">
+                                    <span class="feature-stat-number">3M+</span>
+                                    <span class="feature-stat-label">Properties Listed</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features__showcase-image">
+                            <img src="https://poonam-cardozo.dmlearning.in/wp-content/uploads/2024/08/istockphoto-1402139820-612x612-1.jpg" alt="Property Search Feature">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features__tabs">
+                    <button class="features__tab active-tab" data-target="property-search">Property Search</button>
+                    <button class="features__tab" data-target="virtual-tours">Virtual Tours</button>
+                    <button class="features__tab" data-target="mortgage">Mortgage Tools</button>
+                    <button class="features__tab" data-target="market-trends">Market Trends</button>
+                    <button class="features__tab" data-target="agent-directory">Agent Directory</button>
+                </div>
+
+                <div class="features__content active-content" id="property-search">
+                    <div class="features__grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-search-alt-2'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Smart Filters</h3>
+                                <p class="feature-card-description">
+                                    Advanced filtering options to find properties that match your exact criteria.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-map-alt'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Interactive Maps</h3>
+                                <p class="feature-card-description">
+                                    Explore neighborhoods with our interactive maps showing nearby amenities and points of interest.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-bell'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Property Alerts</h3>
+                                <p class="feature-card-description">
+                                    Get notified when new properties matching your criteria become available.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features__content" id="virtual-tours">
+                    <div class="features__grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-joystick'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">3D Virtual Tours</h3>
+                                <p class="feature-card-description">
+                                    Explore properties in immersive 3D with our cutting-edge virtual tour technology.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-video'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Video Walkthroughs</h3>
+                                <p class="feature-card-description">
+                                    High-quality video tours guided by professional real estate agents.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-share-alt'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Share Tours</h3>
+                                <p class="feature-card-description">
+                                    Easily share property tours with family and friends for collaborative decision making.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features__content" id="mortgage">
+                    <div class="features__grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-calculator'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Mortgage Calculator</h3>
+                                <p class="feature-card-description">
+                                    Calculate your potential mortgage payments with our comprehensive calculator.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-line-chart'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Payment Planner</h3>
+                                <p class="feature-card-description">
+                                    Plan your mortgage payments and explore different scenarios to find the best option.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-money'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Affordability Tool</h3>
+                                <p class="feature-card-description">
+                                    Determine how much house you can afford based on your income and expenses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features__content" id="market-trends">
+                    <div class="features__grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-bar-chart-alt-2'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Price Trends</h3>
+                                <p class="feature-card-description">
+                                    Track property price trends in your area with detailed historical data.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-analyse'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Market Analysis</h3>
+                                <p class="feature-card-description">
+                                    Get expert market analysis to understand the current real estate climate.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-calendar'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Seasonal Trends</h3>
+                                <p class="feature-card-description">
+                                    Learn how seasonal changes affect the real estate market in your area.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features__content" id="agent-directory">
+                    <div class="features__grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-user'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Expert Agents</h3>
+                                <p class="feature-card-description">
+                                    Connect with top-rated real estate agents specializing in your area of interest.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Agent Reviews</h3>
+                                <p class="feature-card-description">
+                                    Read verified reviews from past clients to find the perfect agent for you.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class='bx bx-conversation'></i>
+                            </div>
+                            <div class="feature-card-content">
+                                <h3 class="feature-card-title">Direct Messaging</h3>
+                                <p class="feature-card-description">
+                                    Contact agents directly through our platform for quick and efficient communication.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURE DETAILS SECTION ====================-->
+        <section class="feature-details section">
+            <div class="container">
+                <span class="section__subtitle">Why Choose Our Features</span>
+                <h2 class="section__title">
+                    Enhanced Property Experience<span></span>
+                </h2>
+
+                <div class="feature-details-grid">
+                    <div class="feature-detail-card">
+                        <div class="feature-detail-icon">
+                            <i class='bx bx-shield-check'></i>
+                        </div>
+                        <h3 class="feature-detail-title">Trusted by Thousands</h3>
+                        <p class="feature-detail-description">
+                            Join over 50,000 satisfied customers who have found their perfect homes through our platform.
+                        </p>
+                    </div>
+                    <div class="feature-detail-card">
+                        <div class="feature-detail-icon">
+                            <i class='bx bx-lock-alt'></i>
+                        </div>
+                        <h3 class="feature-detail-title">Secure Transactions</h3>
+                        <p class="feature-detail-description">
+                            Our platform ensures all transactions are secure and compliant with industry standards.
+                        </p>
+                    </div>
+                    <div class="feature-detail-card">
+                        <div class="feature-detail-icon">
+                            <i class='bx bx-headphone'></i>
+                        </div>
+                        <h3 class="feature-detail-title">24/7 Support</h3>
+                        <p class="feature-detail-description">
+                            Our dedicated support team is available around the clock to assist you with any questions.
+                        </p>
+                    </div>
+                    <div class="feature-detail-card">
+                        <div class="feature-detail-icon">
+                            <i class='bx bx-trophy'></i>
+                        </div>
+                        <h3 class="feature-detail-title">Award-Winning Service</h3>
+                        <p class="feature-detail-description">
+                            Recognized for excellence in customer service and innovative real estate solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+            <a href="#" class="footer__logo">
+                Lacasa <i class='bx bxs-home-alt-2'></i>
+            </a>
+            <p class="footer__description">
+               Turning your property goals into reality.<br>More than homes, we build trust.
+            </p>
+        </div>
+        <div class="footer__content">
+            <div>
+                <h3 class="footer__title">
+                  Our Feature
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Property Search</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Virtual Tours</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Mortgage Calculator</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Market Trends</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Agent Directory</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">
+                   News & Blogs
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Latest Market Updates</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Home Buying Tips</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Investment Strategies</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Community Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Industry News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+         <span class="footer__copy">
+            &copy; 2023 RealEstate. All rights reserved.
+         </span>  
+         
+         <div class="footer__privacy">
+            <a href="#">Terms & Agreements</a>
+            <a href="#">Privacy Policy</a>
+         </div>
+      </div>
+
+    </footer>
+
+    <!--==================== SCROLL UP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+
+    <!--==================== SCROLLREVEAL ====================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <!--==================== FEATURES JS ====================-->
+    <script src="assets/js/features.js"></script>
+</body>
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Blogs | Lacasa Real Estate</title>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav__logo">
+                Lacasa <i class='bx bxs-home-alt-2'></i>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./about.html" class="nav__link">
+                            <i class='bx bx-building-house'></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./feature.html" class="nav__link">
+                            <i class='bx bx-award'></i>
+                            <span>Features</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./news.html" class="nav__link active-link">
+                            <i class='bx bx-newspaper'></i>
+                            <span>News & Blogs</span>
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-phone'></i>
+                            <span>Contact</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+            <a href="#" class="button nav__button">
+                Subscribe
+            </a>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HERO SECTION ====================-->
+        <section class="hero news-hero">
+            <div class="container">
+                <h1 class="hero-title">News & Blogs</h1>
+                <p class="hero-description">Stay informed with the latest real estate trends and insights</p>
+            </div>
+        </section>
+
+        <!--==================== NEWS SECTION ====================-->
+        <section class="news section" id="news">
+            <div class="container">
+                <span class="section__subtitle">Latest Updates</span>
+                <h2 class="section__title">
+                    Real Estate Insights<span></span>
+                </h2>
+
+                <div class="news__tabs">
+                    <button class="news__tab active-tab" data-target="market-updates">Market Updates</button>
+                    <button class="news__tab" data-target="buying-tips">Buying Tips</button>
+                    <button class="news__tab" data-target="investment">Investment</button>
+                    <button class="news__tab" data-target="events">Events</button>
+                    <button class="news__tab" data-target="industry-news">Industry News</button>
+                </div>
+
+                <div class="news__content" id="market-updates">
+                    <div class="news__grid">
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://i.pinimg.com/736x/cd/06/a6/cd06a662ed72e29d9184317161f34b93.jpg" alt="Real Estate Market">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">May 15, 2025</span>
+                                <h3 class="news__title">Housing Market Trends for Summer 2025</h3>
+                                <p class="news__description">
+                                    Explore the latest trends in the housing market as we enter the summer season, with insights on pricing, demand, and inventory.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://cdn.statcdn.com/Statistic/1480000/1484437-blank-355.png" alt="Mortgage Rates">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">September 10, 2024</span>
+                                <h3 class="news__title">Mortgage Rates: What to Expect Next Month</h3>
+                                <p class="news__description">
+                                    Financial experts predict the direction of mortgage rates for the upcoming month and what it means for homebuyers.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://www.signatureglobal.in/blog/wp-content/uploads/2023/07/Indutsry-New-Nurturing-Futuristic-Urban-Development.jpg" alt="Urban Development">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">July 5, 2025</span>
+                                <h3 class="news__title">New Urban Development Projects Announced</h3>
+                                <p class="news__description">
+                                    City officials have announced several new urban development projects that will transform neighborhoods across the metro area.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="news__content" id="buying-tips">
+                    <div class="news__grid">
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://i.pinimg.com/736x/44/b5/51/44b551ea2402047fb3682c830bb3bca3.jpg" alt="First Time Buyer">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 12, 2025</span>
+                                <h3 class="news__title">First-Time Homebuyer's Guide for 2023</h3>
+                                <p class="news__description">
+                                    Essential tips and strategies for first-time homebuyers navigating today's competitive real estate market.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://www.nashvillesmls.com/uploads/agent-1/home-inspection-report.jpg" alt="Home Inspection">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">April 8, 2025</span>
+                                <h3 class="news__title">10 Things to Check During a Home Inspection</h3>
+                                <p class="news__description">
+                                    A comprehensive checklist of what to look for during a home inspection to avoid costly surprises later.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/PublishingImages/two-professionals-closing-a-negotiation.jpg&w=1200&h=630" alt="Negotiation Tips">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 3, 2025</span>
+                                <h3 class="news__title">Negotiation Strategies That Work in Today's Market</h3>
+                                <p class="news__description">
+                                    Learn effective negotiation tactics to get the best deal when buying a home in a competitive market.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="news__content" id="investment">
+                    <div class="news__grid">
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://www.piramalrevanta.com/wp-content/uploads/2023/04/7-Tips-for-Maximising-Your-Property-Investment-ROI-txt.png" alt="Real Estate Investment">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 14, 2025</span>
+                                <h3 class="news__title">5 Ways to Maximize ROI on Real Estate Investments</h3>
+                                <p class="news__description">
+                                    Expert strategies to increase your return on investment when purchasing rental properties.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://www.luxuryresidences.in/blog/wp-content/uploads/2024/10/real-estate-market-predictions-2025-300x157.jpeg">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 9, 2025</span>
+                                <h3 class="news__title">Which Properties Appreciate Most in 2025?</h3>
+                                <p class="news__description">
+                                    Analysis of property types and locations that are showing the highest appreciation rates this year.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://www.excelsiorgp.com/wp-content/uploads/2022/09/tax-benefits-of-commercial-real-estate-investing.jpg" alt="Tax Benefits">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 4, 2025</span>
+                                <h3 class="news__title">Tax Benefits of Real Estate Investment in 2023</h3>
+                                <p class="news__description">
+                                    Understanding the latest tax laws and deductions available to real estate investors this year.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="news__content" id="events">
+                    <div class="news__grid">
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://media.licdn.com/dms/image/v2/C5112AQEr9WJtvZgbJg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520250979264?e=2147483647&v=beta&t=vg36U49K71h7ULnmx6jKd6dcA9Si5jjk2cU-y3xARR8" alt="Real Estate Event">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 18, 2025</span>
+                                <h3 class="news__title">Annual Real Estate Expo Coming Next Month</h3>
+                                <p class="news__description">
+                                    Join us for our annual real estate expo featuring industry experts, networking opportunities, and exclusive property previews.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://realcitygroup.ca/wp-content/uploads/2023/03/FTHBS.png" alt="First Time Buyer Seminar">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 22, 2025</span>
+                                <h3 class="news__title">Free First-Time Homebuyer Seminar</h3>
+                                <p class="news__description">
+                                    Learn everything you need to know about buying your first home at our free educational seminar.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://i.ytimg.com/vi/xGtmheHvzfU/maxresdefault.jpg" alt="Community Outreach">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 25, 2025</span>
+                                <h3 class="news__title">Community Housing Initiative Launch</h3>
+                                <p class="news__description">
+                                    We're launching a new initiative to support affordable housing in underserved communities.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="news__content" id="industry-news">
+                    <div class="news__grid">
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://s3-ap-south-1.amazonaws.com/uploaddocumentstomakeitpublic/wp-content/uploads/2024/10/03164024/image-28.webp" alt="Tech Innovation">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 16, 2025</span>
+                                <h3 class="news__title">How Technology is Transforming Real Estate</h3>
+                                <p class="news__description">
+                                    Explore the latest technological innovations reshaping the real estate industry and changing how properties are bought and sold.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://umbrellaaccountants.com.au/wp-content/uploads/2025/06/Options-to-Buy-a-Property.jpg" alt="Regulatory Changes">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 11, 2025</span>
+                                <h3 class="news__title">New Regulations Impacting Property Investors</h3>
+                                <p class="news__description">
+                                    Understanding the latest regulatory changes and how they affect property investors and landlords.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                        <article class="news__card">
+                            <div class="news__img">
+                                <img src="https://rah.co.uk/wp-content/uploads/2024/12/sustainable-housing-key-insights-for-buyers-and-sellers-zdg.jpg" alt="Sustainable Housing">
+                            </div>
+                            <div class="news__data">
+                                <span class="news__date">June 7, 2024</span>
+                                <h3 class="news__title">Sustainable Housing Trends Gaining Momentum</h3>
+                                <p class="news__description">
+                                    The growing trend toward eco-friendly and sustainable housing options in the real estate market.
+                                </p>
+                                <a href="#" class="news__read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NEWSLETTER SECTION ====================-->
+        <section class="subscribe section">
+            <div class="container">
+                <div class="subscribe__content">
+                    <h2 class="subscribe__title">Subscribe to Our Newsletter</h2>
+                    <p class="subscribe__description">Stay updated with the latest real estate news, market trends, and expert insights</p>
+                    <form class="subscribe__form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="button">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+            <a href="#" class="footer__logo">
+                Lacasa <i class='bx bxs-home-alt-2'></i>
+            </a>
+            <p class="footer__description">
+                Your trusted real estate partner since 2010.<br> We help clients find their dream homes <br>with personalized service and expert guidance.
+            </p>
+        </div>
+        <div class="footer__content">
+            <div>
+                <h3 class="footer__title">
+                  Our Feature
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Property Search</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Virtual Tours</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Mortgage Calculator</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Market Trends</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Agent Directory</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">
+                   News & Blogs
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Latest Market Updates</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Home Buying Tips</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Investment Strategies</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Community Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Industry News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+         <span class="footer__copy">
+            &copy; 2023 RealEstate. All rights reserved.
+         </span>  
+         
+         <div class="footer__privacy">
+            <a href="#">Terms & Agreements</a>
+            <a href="#">Privacy Policy</a>
+         </div>
+      </div>
+
+    </footer>
+
+
+    <!--==================== SCROLL UP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+
+    <!--==================== SCROLLREVEAL ====================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <!--==================== NEWS JS ====================-->
+    <script src="assets/js/news.js"></script>
+</body>
+</html>
